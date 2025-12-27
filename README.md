@@ -2,6 +2,14 @@
 
 A comprehensive Python library for building, analyzing, and visualizing implied volatility surfaces using industry-standard models and techniques.
 
+<p align="center">
+  <img src="docs/volatility_surface_example.png" alt="Implied Volatility Surface" width="700">
+</p>
+
+<p align="center">
+  <em>3D Implied Volatility Surface showing the relationship between Moneyness, Term, and Implied Volatility</em>
+</p>
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -383,6 +391,14 @@ svi_params = interpolator.fit_svi(maturity=1.0)
 ---
 
 ## Visualization Examples
+
+<p align="center">
+  <img src="docs/volatility_surface_dual.png" alt="Volatility Surface Views" width="900">
+</p>
+
+<p align="center">
+  <em>Left: 3D Surface View | Right: Contour/Heatmap View with ATM reference line</em>
+</p>
 
 ### 3D Surface Plot
 
